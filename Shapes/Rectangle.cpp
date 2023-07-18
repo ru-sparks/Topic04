@@ -7,6 +7,4 @@ double Rectangle::calculateArea() const {
     return length * width;
 }
 
-double Rectangle::calculatePerimeter() const {
-    return 2 * (length + width);
-}
+double Rectangle::calculatePerimeter() const {`
