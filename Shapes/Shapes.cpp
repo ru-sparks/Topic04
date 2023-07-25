@@ -14,6 +14,9 @@ using namespace std;
 
 int main() {
     Drawing drawing;
+    
+    Shape shape;
+    cout << "Shape Area: " << shape.calculateArea() << endl;
 
     Rectangle rectangle(5.0, 3.0);
     rectangle.setColor("Red");
