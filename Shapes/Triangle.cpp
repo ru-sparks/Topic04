@@ -6,7 +6,7 @@ Triangle::Triangle(double side1, double side2, double side3)
 
 double Triangle::calculateArea() const {
     // Heron's formula to calculate the area of a triangle
-    double semiPerimeter = (side1 + side2 + side3) / 2;
+    double semiPerimeter = calculatePerimeter() / 2;
     return sqrt(semiPerimeter *
         (semiPerimeter - side1) *
         (semiPerimeter - side2) *
